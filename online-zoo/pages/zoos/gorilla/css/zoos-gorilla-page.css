@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import "../../panda/css/zoos-panda-page.css";
+
+/* SECTION aside-slider */
+aside.slider .slide-1 {
+    background: url("../../../../assets/images/slider-map-2-panda.png") center no-repeat;
+    background-size: 100% 100%;
+}
+aside.slider .slide-2 {
+    background: url("../../../../assets/images/slider-map-4-eagle.png") center no-repeat;
+    background-size: 100% 100%;
+}
+aside.slider .slide-3 {
+    background: url("../../../../assets/images/slider-map-3-alligator.png") center no-repeat;
+    background-size: 100% 100%;
+}
+aside.slider .slide-4 {
+    background: url("../../../../assets/images/map-slider-gorilla-active.png") center no-repeat;
+    background-size: 100% 100%;
+}

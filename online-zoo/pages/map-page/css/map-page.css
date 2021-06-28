@@ -1,0 +1,623 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import "../../landing-page/css/landing-page.css";
+
+.wrapper {
+  height: 2132px;
+}
+
+@media (max-width: 1450px) {
+
+  .wrapper {
+    height: 1941px;
+  }
+
+}
+
+@media (max-width: 1140px) {
+
+  .wrapper {
+    height: 2171px;
+  }
+
+}
+
+@media (max-width: 620px) {
+
+  .wrapper {
+    height: 1972px;
+  }
+
+}
+
+/* SECTION header */
+.header .navbar li.design {
+  position: relative;
+  top: -2px;
+}
+
+/* SECTION Choose your favorite */
+.wrapper .background-choose-your-favorite {
+    width: 100%;
+    height: 550px;
+    background-color: #FBFBFB;
+    box-shadow: inset 0px 4px 0px 0px rgb(44 101 77 / 8%);
+}
+.wrapper .background-choose-your-favorite.dark {
+    background-color: #4F4F4F;
+}
+.wrapper .choose-your-favorite-section {
+    max-width: 1920px;
+    height: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.choose-your-favorite-section h2 {
+    margin-top: 60px;
+    padding-left: 1px;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+}
+.choose-your-favorite-section p {
+    width: 790px;
+    height: 80px;
+    margin-top: 22px;
+    padding-left: 1px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.choose-your-favorite-section .slider-buttons {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+.choose-your-favorite-section .slider-buttons button.left,
+.choose-your-favorite-section .slider-buttons button.right {
+    position: relative;
+}
+.choose-your-favorite-section .slider-buttons button.left {
+    top: 116px;
+    left: -575px;
+}
+.choose-your-favorite-section .slider-buttons button.right {
+    top: 116px;
+    left: 575px;
+}
+.choose-your-favorite-section .slider {
+    width: 1125px;
+    height: 157px;
+    margin: 0 auto;
+    margin-top: 23px;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+.choose-your-favorite-section .slider .pictures {
+    width: 3000px;
+    height: 157px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    left: 0px;
+    transition: all 0.5s ease-in-out;
+}
+.choose-your-favorite-section .pictures.slip-1 {
+    left: 0px;
+}
+.choose-your-favorite-section .pictures.slip-2 {
+    left: 0px;
+}
+.choose-your-favorite-section .pictures.slip-3 {
+    left: 0px;
+}
+.choose-your-favorite-section .pictures.slip-4 {
+    left: 0px;
+}
+.choose-your-favorite-section .pictures.slip-5 {
+    left: 0px;
+}
+.choose-your-favorite-section .pictures.slip-6 {
+    left: 0px;
+}
+.choose-your-favorite-section .pictures.slip-7 {
+    left: 0px;
+}
+.choose-your-favorite-section .pictures.slip-8 {
+    left: 0px;
+}
+.choose-your-favorite-section .slider .slide-wrap {
+    width: 157px;
+    height: 157px;
+    margin-right: -19px;
+    background: url("../../../assets/images/slider-map-chosen-slide.png") center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+.choose-your-favorite-section .slider .chosen-wrap {
+    visibility: visible;
+}
+.choose-your-favorite-section .slider .slide {
+    width: 107px;
+    height: 108px;
+    visibility: visible;
+}
+.choose-your-favorite-section .slider .slide:hover {
+    cursor: pointer;
+}
+.choose-your-favorite-section .slider .chosen-slide {
+    width: 137px;
+    height: 137px;
+}
+.choose-your-favorite-section .slider .slide-1 {
+    background: url("../../../assets/images/slider-map-1-gorilla.png") center no-repeat;
+    background-size: cover;
+}
+.choose-your-favorite-section .slider .slide-2 {
+    background: url("../../../assets/images/slider-map-2-panda.png") center no-repeat;
+    background-size: cover;
+}
+.choose-your-favorite-section .slider .slide-3 {
+    background: url("../../../assets/images/slider-map-3-alligator.png") center no-repeat;
+    background-size: cover;
+}
+.choose-your-favorite-section .slider .slide-4 {
+    background: url("../../../assets/images/slider-map-4-eagle.png") center no-repeat;
+    background-size: cover;
+}
+.choose-your-favorite-section .slider .slide-5 {
+    background: url("../../../assets/images/slider-map-5-tiger.png") center no-repeat;
+    background-size: cover;
+}
+.choose-your-favorite-section .slider .slide-6 {
+    background: url("../../../assets/images/slider-map-6-elephant.png") center no-repeat;
+    background-size: cover;
+}
+.choose-your-favorite-section .slider .slide-7 {
+    background: url("../../../assets/images/slider-map-7-lion.png") center no-repeat;
+    background-size: cover;
+}
+.choose-your-favorite-section .slider .slide-8 {
+    background: url("../../../assets/images/slider-map-8-zebra.png") center no-repeat;
+    background-size: cover;
+}
+.choose-your-favorite-section .slider-controls {
+    margin-top: 32px;
+    position: relative;
+    left: -17px;
+}
+.choose-your-favorite-section .slider-controls output{
+    color: #333333;
+}
+.choose-your-favorite-section .slider-controls output.dark{
+    color: #FEFEFE;
+}
+.choose-your-favorite-section .slider-controls .output-complect p{
+    margin-left: 9px;
+    padding-top: 8px;
+}
+.choose-your-favorite-section .slider-controls input::-webkit-slider-thumb {
+    background-color: #333333;
+}
+.choose-your-favorite-section .slider-controls input.dark::-webkit-slider-thumb {
+    background-color: #FEFEFE;
+}
+
+/* SECTION Choose your favorite mw 1450px */
+@media (max-width: 1450px) {
+  .wrapper .background-choose-your-favorite {
+    height: 510px;
+  }
+  .wrapper .choose-your-favorite-section {
+    height: 510px;
+  }
+  .choose-your-favorite-section .slider {
+    width: 712px;
+    height: 157px;
+    margin-top: 3px;  
+  }
+  .choose-your-favorite-section .slider-buttons button.left {
+    top: 97px;
+    left: -376px;
+  }
+  .choose-your-favorite-section .slider-buttons button.right {
+    top: 97px;
+    left: 376px;
+  }
+  .choose-your-favorite-section .pictures.slip-6 {
+    left: -138px;
+  }
+  .choose-your-favorite-section .pictures.slip-7 {
+    left: -276px;
+  }
+  .choose-your-favorite-section .pictures.slip-8 {
+    left: -414px;
+  }
+  .choose-your-favorite-section .slider-controls {
+    margin-top: 25px;
+    left: 0px;
+  }
+}
+
+/* SECTION Choose your favorite mw 1140px */
+@media (max-width: 1140px) {
+  .wrapper .choose-your-favorite-section {
+    height: 520px;
+  }
+  .wrapper .choose-your-favorite-section {
+    height: 520px;
+  }
+  .choose-your-favorite-section h2 {
+    margin-top: 59px;
+  }
+  .choose-your-favorite-section p {
+    width: 600px;
+    height: 112px;
+  }
+  .choose-your-favorite-section .slider-buttons button.left {
+    top: 98px;
+    left: -276px;
+  }
+  .choose-your-favorite-section .slider-buttons button.right {
+    top: 98px;
+    left: 276px;
+  }
+  .choose-your-favorite-section .slider {
+    width: 542px;
+    margin-top: 4px;
+  }
+  .choose-your-favorite-section .slider .slide-wrap {
+    margin-left: -15px;
+    margin-right: -18px;
+  }
+  .choose-your-favorite-section .slider .chosen-wrap {
+    margin-left: 3px;
+    margin-right: 0px;
+  }
+  .choose-your-favorite-section .pictures.slip-5 {
+    left: -124px;
+  }
+  .choose-your-favorite-section .pictures.slip-6 {
+    left: -248px;
+  }
+  .choose-your-favorite-section .pictures.slip-7 {
+    left: -371px;
+}
+  .choose-your-favorite-section .pictures.slip-8 {
+    left: -495px;
+  }
+}
+
+/* SECTION Choose your favorite mw 620px */
+@media (max-width: 620px) {
+
+  .wrapper .background-choose-your-favorite {
+    height: 460px;
+  }
+  .wrapper .choose-your-favorite-section {
+    height: 460px;
+  }
+  .choose-your-favorite-section h2 {
+    margin-top: 35px;
+    padding-left: 0px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .choose-your-favorite-section p {
+    width: 280px;
+    height: 182px;
+    margin-top: 10px;
+    padding-left: 0px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .choose-your-favorite-section .slider-buttons button.left {
+    top: 68px;
+    left: -116px;
+  }
+  .choose-your-favorite-section .slider-buttons button.right {
+    top: 68px;
+    left: 116px;
+  }
+  .choose-your-favorite-section .slider {
+    width: 240px;
+    height: 85px;
+    margin-top: 10px;
+  }
+  .choose-your-favorite-section .slider .pictures {
+    height: 85px;
+  }
+  .choose-your-favorite-section .pictures.slip-1 {
+    left: 77px;
+  }
+  .choose-your-favorite-section .pictures.slip-2 {
+    left: 0px;
+  }
+  .choose-your-favorite-section .pictures.slip-3 {
+    left: -77px;
+  }
+  .choose-your-favorite-section .pictures.slip-4 {
+    left: -153px;
+  }
+  .choose-your-favorite-section .pictures.slip-5 {
+    left: -231px;
+  }
+  .choose-your-favorite-section .pictures.slip-6 {
+    left: -308px;
+  }
+  .choose-your-favorite-section .pictures.slip-7 {
+    left: -385px;
+  }
+  .choose-your-favorite-section .pictures.slip-8 {
+    left: -462px;
+  }
+  .choose-your-favorite-section .slider .slide-wrap {
+    width: 85px;
+    height: 85px;
+    margin-left: -4px;
+    margin-right: -4px;
+  }
+  .choose-your-favorite-section .slider .chosen-wrap {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .choose-your-favorite-section .slider .slide {
+    width: 60px;
+    height: 60px;
+  }
+  .choose-your-favorite-section .slider .chosen-slide {
+    width: 75px;
+    height: 75px;
+  }
+  .choose-your-favorite-section .slider-controls {
+    margin-top: 20px;
+    left: 12px;
+  }
+
+}
+
+/* SECTION map-section */
+.wrapper .map-section-background {
+  width: 100%;
+  height: 737px;
+  background-color: #FBFBFB;
+}
+.wrapper .map-section-background.dark {
+  background-color: #4F4F4F;
+}
+.wrapper .map-section {
+  max-width: 1920px;
+  height: 904px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.map-section .map {
+  width: 1200px;
+  height: 498px;
+  margin-top: 38px;
+  background: url("../../../assets/images/map.png") center no-repeat;
+}
+.map-section .map.dark {
+  background: url("../../../assets/images/map-dark-theme.png") center no-repeat;
+}
+.map-section .map-fake {
+  width: 436px;
+  height: 149px;
+}
+.map-section .placeholder {
+  width: 67px;
+  height: 94px;
+  background: url("../../../assets/icons/placeholder-green.svg") center no-repeat;
+  background-size: cover;
+}
+.map-section .placeholder-selected {
+  background: url("../../../assets/icons/placeholder-red.svg") center no-repeat;
+  background-size: cover;
+}
+.map-section .map .placeholder:hover {
+  cursor: pointer;
+}
+.map-section .placeholder.eagle {
+  position: relative;
+  top: -121px;
+  left: 132px;
+}
+.map-section .placeholder.croco {
+  position: relative;
+  top: -100px;
+  left: -134px;
+}
+.map-section .placeholder.gary {
+  position: relative;
+  top: -13px;
+  left: -184px;
+}
+.map-section .placeholder.panda{
+  position: relative;
+  top: -103px;
+  left: -229px;
+}
+.map-section .placeholder-pet {
+  position: relative;
+  top: 13px;
+  left: 12px;
+  width: 43px;
+  height: 43px;
+}
+.map-section .placeholder-pet.pet-eagle{
+  background: url("../../../assets/images/placeholder-eagle.png") center no-repeat;
+  background-size: cover;
+}
+.map-section .placeholder-pet.pet-croco{
+  background: url("../../../assets/images/placeholder-croco.png") center no-repeat;
+  background-size: cover;
+}
+.map-section .placeholder-pet.pet-gary{
+  background: url("../../../assets/images/placeholder-gary.png") center no-repeat;
+  background-size: cover;
+}
+.map-section .placeholder-pet.pet-panda{
+  background: url("../../../assets/images/placeholder-panda.png") center no-repeat;
+  background-size: cover;
+}
+.map-section button.solid-green {
+  margin-top: 46px;
+  position: relative;
+  left: 2px;
+  background: url("../../../assets/icons/button-watch-online-solid.svg") center no-repeat;
+}
+
+/* SECTION map-section mw 1450px*/
+@media (max-width: 1450px) {
+
+  .wrapper .map-section-background {
+    height: 600px;
+  }
+  .wrapper .map-section {
+    height: 600px;
+  }
+  .map-section .map {
+    width: 800px;
+    height: 388px;
+    margin-top: 23px;
+    background-size: 100% 100%;
+  }
+  .map-section .map.dark {
+    background-size: 100% 100%;
+  }
+  .map-section .placeholder {
+    width: 59px;
+    height: 83px;
+  }
+  .map-section .placeholder.eagle {
+    top: -107px;
+    left: 76px;
+  }
+  .map-section .placeholder.croco {
+    top: -95px;
+    left: -91px;
+  }
+  .map-section .placeholder.gary {
+    top: -18px;
+    left: -120px;
+  }
+  .map-section .placeholder.panda {
+    top: -94px;
+    left: -156px;
+  }
+  .map-section .placeholder-pet {
+    position: relative;
+    top: 12px;
+    left: 11px;
+    width: 36px;
+    height: 36px;
+  }
+  .map-section button.solid-green {
+    margin-top: 34px;
+    position: relative;
+    left: 0px;
+    background: url("../../../assets/icons/button-watch-online-solid.svg") center no-repeat;
+  }
+
+}
+
+/* SECTION map-section mw 1140px*/
+@media (max-width: 1140px) {
+
+  .wrapper .map-section-background {
+    height: 499px;
+  }
+  .wrapper .map-section {
+    height: 499px;
+  }
+  .map-section .map {
+    width: 600px;
+    height: 290px;
+    margin-top: 40px;
+  }
+  .map-section .placeholder {
+    width: 66px;
+    height: 93px;
+  }
+  .map-section .placeholder.eagle {
+    top: -94px;
+    left: 53px;
+  }
+  .map-section .placeholder.croco {
+    top: -84px;
+    left: -75px;
+  }
+  .map-section .placeholder.gary {
+    top: -32px;
+    left: -88px;
+  }
+  .map-section .placeholder.panda {
+    top: -89px;
+    left: -106px;
+  }
+  .map-section .placeholder-pet {
+    position: relative;
+    top: 13px;
+    left: 12px;
+    width: 43px;
+    height: 43px;
+  }
+
+}
+
+/* SECTION map-section mw 620px*/
+@media (max-width: 620px) {
+
+  .wrapper .map-section-background {
+    height: 320px;
+  }
+  .wrapper .map-section {
+    height: 320px;
+  }
+  .map-section .map {
+    width: 298px;
+    height: 146px;
+    margin-top: 25px;
+  }
+  .map-section .placeholder {
+    width: 33px;
+    height: 47px;
+  }
+  .map-section .placeholder.eagle {
+    top: -50px;
+    left: 24px;
+  }
+  .map-section .placeholder.croco {
+    top: -41px;
+    left: -36px;
+  }
+  .map-section .placeholder.gary {
+    top: -15px;
+    left: -44px;
+  }
+  .map-section .placeholder.panda {
+    top: -44px;
+    left: -49px;
+  }
+  .map-section .placeholder-pet {
+    position: relative;
+    top: 7px;
+    left: 6px;
+    width: 22px;
+    height: 22px;
+  }
+
+}
